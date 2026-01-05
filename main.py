@@ -17,7 +17,7 @@ for product_row in range(2, product_list.max_row + 1):
         current_products = products_per_supplier[supplier_name]
         products_per_supplier[supplier_name] = current_products + 1
     else:
-        print("adding a new supplier")
+        print("CI/CD: Adding a new supplier to the system...")
         products_per_supplier[supplier_name] = 1
 print(products_per_supplier)
 
