@@ -37,6 +37,8 @@ if inventory < 10:
 
 print(products_count)
 
+print("test to check the new build")
+
 
 
 
