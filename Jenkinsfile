@@ -21,8 +21,8 @@ pipeline {
 
         stage('Login and Push') {
             steps {
-                // 'docker-hub-creds' is the ID you created in Jenkins
-                withCredentials([usernamePassword(credentialsId: 'docker-hub-creds',
+                // 'docker-hub-credentials' is the ID you created in Jenkins
+                withCredentials([usernamePassword(credentialsId: 'docker-hub-credentials',
                                                  passwordVariable: 'PASS',
                                                  usernameVariable: 'USER')]) {
 
