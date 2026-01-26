@@ -1,4 +1,4 @@
-# Python Inventory CI/CD Pipeline
+# Inventory-Devops-Pipeline
 
 A containerized Python tool that processes supply chain data from Excel, showcasing a complete DevOps CI/CD protocol.
 
